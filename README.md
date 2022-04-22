@@ -2,9 +2,9 @@
 数据分析师成长之路
 
 ## 数据分析——基础工具
-### python
+### python（pandas numpy 可视化 算法实现)
 ### SQL
-### Power BI
+### Power BI （Powerquery DAX)
 ## 数据分析——必备知识
 ### 业务分析
 #### 数据指标定义
