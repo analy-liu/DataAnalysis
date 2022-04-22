@@ -1,47 +1,18 @@
-# Power Query学习目录
-## 入门（零代码操作，解决80%问题）
-- 操作界面
-  - 数据获取
-  - 处理数据
+# PowerBI
+## PowerBI是什么？
+PowerBI是微软开发的一套商业智能体系，也就是数据分析工具，分为桌面版和excel内嵌版
+桌面版是单独的一个软件，功能比内嵌版本多些
+excel内嵌版，在excel中就可以直接使用，更方便广大用户使用，本资料展现的面板主要也是此版本
+## 为什么使用PowerBI？相比于其他数据分析工具PowerBI的优势是什么？
+PowerBI的核心理念就是让用户不需要强大的技术背景，只需要使用excel就能完成绝大部分商业数据分析和可视化
+比起其他工具比较依靠代码能力，PowerBI的图形界面就能完成的绝大部分工作，只有少部分需求的实现需要用上代码
+## PowerBI构成
+PowerBI分为三大块功能 
+- Power Query ：数据获取与数据预处理(M语言)
+- Power Pivot ：数据透视(DAX)
+- Power View ：数据可视化
 
-## 基础（大多数可通过图形界面实现）
+## 学习参考资料
 
-### 基础数据操作
-
-#### 文本类（Text类）
-- 文本转化为其他类型
-- 文本类处理
-
-#### 数值类（Number类）
-- 数值类转化为其他类型
-- 数值类处理
-
-#### 日期时间类（DateTime类）
-- 日期时间类转化为其他类型
-- 日期时间类处理
-
-### 容器操作
-
-#### 列（List类）
-- List类转化为其他类型
-- List类处理
-
-#### 行（Record类）
-- Record类转化为其他类型
-- Record类处理
-
-#### 表格类（Table类）
-- Table行列切片
-- Table类处理
-
-## 进阶（高效且强大）
-
-- 自定义函数
-- 输入列名返回列数据（Record.Field)
-- for循环（List.Accumulate)
-- 试错函数（try otherwise）
-- 分组排名
-
-## 已封装函数
-
-- 腾讯文档数据获取
+[DAX](https://docs.microsoft.com/zh-cn/power-bi/transform-model/desktop-quickstart-learn-dax-basics)
+[M语言](https://pqfans.com/)
