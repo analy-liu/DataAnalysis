@@ -13,6 +13,7 @@ PowerBI分为三大块功能
 - Power View ：数据可视化
 
 ## 学习参考资料
-
+1. 官网
 [DAX](https://docs.microsoft.com/zh-cn/power-bi/transform-model/desktop-quickstart-learn-dax-basics)
+2. 个人博客
 [M语言](https://pqfans.com/)
