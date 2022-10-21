@@ -1,9 +1,16 @@
+---
+title:  python-数据可视化
+layout: default
+---
+[![返回](/assets/images/back.png)](../../../../2022/07/05/Python_Index.html)
 
 # python中数据可视化
 
-## 基础：matplotlib
+python中数据可视化的包有很多，本篇将介绍matplotlib
 
-### 导入包
+## 1. 基础：matplotlib
+
+### 1.1 导入包
 
 
 ```python
@@ -12,7 +19,7 @@ import pandas as pd
 import numpy as np
 ```
 
-### 画图框架（Figure、Axes)
+### 1.2 画图框架（Figure、Axes)
 
 框架图：
 ![](https://raw.githubusercontent.com/analy-liu/PersonalImgaes/main/images/fig_map.webp)
@@ -92,7 +99,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/analy-liu/PersonalImgaes/main/images/output_11_0.png)
 
 
-### 通用参数
+### 1.3 通用参数
 
 #### 基础设置
 
@@ -208,7 +215,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/analy-liu/PersonalImgaes/main/images/output_26_0.png)
 
 
-### plt 快速绘图
+### 1.4 plt 快速绘图
 
 基本图标函数:
 
@@ -651,6 +658,11 @@ radar.show()
 ![png](https://raw.githubusercontent.com/analy-liu/PersonalImgaes/main/images/output_79_0.png)
 
 
-## 交互：Pyecharts
+## 2. 交互：Pyecharts
 
-### 导入包
+Pyecharts的教程请看下面两个：
+
+1. AwesomeTang写的pyecharts教程，很详细
+[【pyecharts教程】应该是全网最全的教程了～](https://www.heywhale.com/mw/project/5eb7958f366f4d002d783d4a)
+2. 本人自己写的简化函数
+[函数实现-pyecharts简化函数](../../../../2022/08/15/Python_Pyecharts.html)
